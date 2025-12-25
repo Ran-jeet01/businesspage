@@ -342,3 +342,15 @@ body {
   font-size: 0.9rem;
   color: #888;
 }
+
+/* Call to action Section */
+.cta-section {
+  padding: 8rem 0;
+  background: radial-gradient(circle at center, #222 0%, #000 70%);
+  text-align: center;
+}
+
+.cta-btn {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+}
