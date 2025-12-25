@@ -1,0 +1,61 @@
+.site-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-cta {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: 1.5px solid #fff;
+  color: #ffffff;
+  background: black;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+.nav-cta:hover {
+  background: #fff;
+  color: #000;
+  border: 1.5px solid #000000;
+}
