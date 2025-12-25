@@ -252,3 +252,47 @@ body {
   line-height: 1.6;
   margin: 0;
 }
+
+/* Pricing Section */
+.pricing-section {
+  padding: 6rem 0;
+  background-color: #050505;
+}
+
+.pricing-card {
+  padding: 3rem 2rem;
+  align-items: center;
+}
+
+.pricing-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ccc;
+}
+
+.features-list li {
+  margin-bottom: 0.8rem;
+}
+
+.pricing-card.featured {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.pricing-card.featured:hover {
+  transform: scale(1.05) translateY(-10px);
+}
