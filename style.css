@@ -253,7 +253,8 @@ body {
   margin: 0;
 }
 
-/* Pricing Section */
+/* Price Section */
+
 .pricing-section {
   padding: 6rem 0;
   background-color: #050505;
@@ -295,4 +296,49 @@ body {
 
 .pricing-card.featured:hover {
   transform: scale(1.05) translateY(-10px);
+}
+
+/* Reviews Sectionn*/
+.reviews-section {
+  padding: 6rem 0;
+  background-color: #0a0a0a;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.review-card {
+  background: transparent;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  text-align: left;
+  position: relative;
+}
+
+.review-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.reviewer-title {
+  font-size: 0.9rem;
+  color: #888;
 }
