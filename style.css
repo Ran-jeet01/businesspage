@@ -354,3 +354,44 @@ body {
   font-size: 1.2rem;
   padding: 1rem 3rem;
 }
+
+/* Footer */
+.site-footer {
+  padding: 4rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #000;
+}
+
+.footer-content {
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.copyright {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
