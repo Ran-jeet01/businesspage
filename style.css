@@ -424,7 +424,6 @@ body {
   .nav-toggle-label {
     display: block;
     order: 1;
-    /* Move hamburger to the right if needed, or adjust flex order */
     z-index: 1001;
   }
 
@@ -458,19 +457,16 @@ body {
     z-index: 1001;
   }
 
-  /* Adjust CTA for mobile header */
   .nav-cta {
     display: none;
   }
 }
 
-/* Responsive Content Adjustments */
 @media (max-width: 1024px) {
   .container {
     padding: 1rem 1.5rem;
   }
 
-  /* Hero Section Responsive Layout */
   .hero .container {
     flex-direction: column;
     justify-content: center;
