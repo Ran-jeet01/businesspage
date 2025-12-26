@@ -58,7 +58,7 @@ body {
 .nav-links a {
   text-decoration: none;
   color: #ffffff;
-  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+  font-size: clamp(0.95rem, 1.2vw, 1rem);
   font-weight: 400;
   transition: opacity 0.3s ease;
 }
@@ -118,7 +118,7 @@ body {
 
 .nav-cta {
   text-decoration: none;
-  padding: 0.7rem clamp(2rem, 3vw, 3rem);
+  padding: 0.6rem clamp(2rem, 3vw, 2.5rem);
   border-radius: 999px;
   font-weight: 500;
   font-size: clamp(0.9rem, 1vw, 1rem);
@@ -153,8 +153,8 @@ body {
 }
 
 .layered-text.top {
-  top: 35%;
-  right: clamp(5rem, 15vw, 18rem);
+  top: 20%;
+  right: clamp(5rem, 15vw, 16rem);
   transform: translateY(-50%);
   z-index: 1;
   align-items: flex-end;
@@ -178,7 +178,7 @@ body {
 
 .btn {
   text-decoration: none;
-  padding: 0.8rem clamp(2.5rem, 3.5vw, 3.5rem);
+  padding: 0.8rem clamp(2.5rem, 3.5vw, 3rem);
   border-radius: 999px;
   font-weight: 500;
   font-size: clamp(0.9rem, 1vw, 1rem);
